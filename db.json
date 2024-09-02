@@ -1,0 +1,14 @@
+{
+  "perretes": [
+    {
+      "id": 1,
+      "name": "Alfonsina",
+      "breed": "Hound"
+    },
+    {
+      "id": 2,
+      "name": "Valentino",
+      "breed": "Italian greyhound"
+    }
+  ]
+}

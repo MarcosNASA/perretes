@@ -1,29 +1,45 @@
-import { useEffect, useState } from 'react'
 import './App.css'
-import { Perrete } from './domain/Perrete'
+import { useState } from 'react'
+
+import { Gatetes } from './features/gatete/components/Gatetes'
+import { Perretes } from './features/perrete/components/Perretes'
+import { Adopciones } from './features/adopciones/components/Adopciones'
+
+type Tab = 'perretes' | 'gatetes' | 'adopciones'
+
+const DEFAULT_TAB = 'perretes'
 
 function App() {
-  const [perretes, setPerretes] = useState<Perrete[]>([])
-
-  useEffect(() => {
-    console.log(import.meta.env.VITE_API_BASE_URL)
-    fetch(`${import.meta.env.VITE_API_BASE_URL}/perretes`)
-      .then((response) => response.json())
-      .then(setPerretes)
-  }, [])
+  const [tab, setTab] = useState<Tab>(DEFAULT_TAB)
 
   return (
-    <div className="flex flex-col items-center justify-center gap-12">
-      <header>
-        <h1 className="text-9xl font-bold">Perretes</h1>
-      </header>
-      <ul className="flex flex-col gap-4 list-disc">
-        {perretes.map((perrete) => (
-          <li key={perrete.id} className="text-4xl">
-            {perrete.name}
-          </li>
-        ))}
-      </ul>
+    <div className="flex flex-col gap-4">
+      <div className="flex gap-2">
+        <button
+          onClick={() => {
+            setTab('perretes')
+          }}
+        >
+          Perretes
+        </button>
+        <button
+          onClick={() => {
+            setTab('gatetes')
+          }}
+        >
+          Gatetes
+        </button>
+        <button
+          onClick={() => {
+            setTab('adopciones')
+          }}
+        >
+          Adopciones
+        </button>
+      </div>
+      {tab === 'perretes' && <Perretes />}
+      {tab === 'gatetes' && <Gatetes />}
+      {tab === 'adopciones' && <Adopciones />}
     </div>
   )
 }

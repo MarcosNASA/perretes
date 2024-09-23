@@ -8,7 +8,7 @@ export const AdopterSchema = z.object({
   lastName: z.string(),
   age: z.number(),
   phone: z.string(),
-  email: z.string(),
+  email: z.string().email(),
   address: z.string(),
   description: z.string(),
 })
@@ -20,7 +20,29 @@ export type Adoptee = z.infer<typeof AdopteeSchema>
 export const AdoptionSchema = z.object({
   id: z.string().uuid(),
   adopter: AdopterSchema,
-  adoptees: z.array(AdopteeSchema),
+  adoptees: z
+    .array(AdopteeSchema)
+    .min(2, { message: 'Eres un soso, adopta por lo menos a 2 gatetes' }),
   isFirstTimeAdopter: z.boolean(),
 })
 export type Adoption = z.infer<typeof AdoptionSchema>
+
+export const Adoption = {
+  default: () => {
+    return {
+      id: crypto.randomUUID(),
+      adopter: {
+        id: crypto.randomUUID(),
+        firstName: '',
+        lastName: '',
+        age: 0,
+        phone: '',
+        email: '',
+        address: '',
+        description: '',
+      },
+      adoptees: [],
+      isFirstTimeAdopter: false,
+    } as const satisfies Adoption
+  },
+}

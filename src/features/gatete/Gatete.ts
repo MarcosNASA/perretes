@@ -8,6 +8,9 @@ export const GateteSchema = z.object({
 export type Gatete = z.infer<typeof GateteSchema>
 
 export const Gatete = {
+  default: () => {
+    return Gatete.create('', '')
+  },
   create: (name: string, color: string): Gatete => ({
     id: crypto.randomUUID(),
     name,

@@ -1,42 +1,6 @@
 {
-  "perretes": [
-    {
-      "id": "1",
-      "name": "Alfonsina",
-      "breed": "Hound"
-    },
-    {
-      "id": "2",
-      "name": "Valentino",
-      "breed": "Italian greyhound"
-    }
-  ],
+  "perretes": [],
   "gatetes": [
-    {
-      "id": "1",
-      "name": "Willy",
-      "color": "gray"
-    },
-    {
-      "id": "2",
-      "name": "Oreo",
-      "color": "black"
-    },
-    {
-      "id": "3",
-      "name": "Wilson",
-      "color": "green"
-    },
-    {
-      "id": "4",
-      "name": "Felix",
-      "color": "black"
-    },
-    {
-      "id": "5",
-      "name": "Micho",
-      "color": "Blanco"
-    },
     {
       "id": "bb7ceb6f-daaf-4235-94c4-7eff10bf19be",
       "name": "caramelo",
@@ -220,6 +184,260 @@
           "id": "3",
           "name": "Wilson",
           "color": "green"
+        }
+      ],
+      "isFirstTimeAdopter": false
+    },
+    {
+      "id": "81302275-7e7e-436e-8276-fbd0ba5855e8",
+      "adopter": {
+        "id": "cf20ca66-4d87-4160-99e2-d7b6e8b1b05d",
+        "firstName": "nombre de ejemplo",
+        "lastName": "",
+        "age": 0,
+        "phone": "",
+        "email": "test@test.com",
+        "address": "",
+        "description": ""
+      },
+      "adoptees": [],
+      "isFirstTimeAdopter": false
+    },
+    {
+      "id": "bf97408e-0bac-428c-af5b-fab380f512bb",
+      "adopter": {
+        "id": "ca3bd886-10ae-43df-b30f-93b208dc529c",
+        "firstName": "nombre de ejemplo",
+        "lastName": "",
+        "age": 0,
+        "phone": "",
+        "email": "test@test.com",
+        "address": "",
+        "description": ""
+      },
+      "adoptees": [
+        {
+          "id": "23cfd174-4ce5-4470-8122-329b160b7126",
+          "name": "lego",
+          "color": "rosa"
+        }
+      ],
+      "isFirstTimeAdopter": false
+    },
+    {
+      "id": "4a7a37ed-fd1b-4c65-9bec-ebfc8b5c8528",
+      "adopter": {
+        "id": "f85c05dd-64b7-416a-b4c1-461f6ecb8c02",
+        "firstName": "nombre de ejemplo",
+        "lastName": "",
+        "age": 0,
+        "phone": "",
+        "email": "test@test.com",
+        "address": "",
+        "description": ""
+      },
+      "adoptees": [
+        {
+          "id": "1773dc0f-3e64-4f92-a09e-771b5d0f9b44",
+          "name": "",
+          "color": ""
+        }
+      ],
+      "isFirstTimeAdopter": false
+    },
+    {
+      "id": "4a7a37ed-fd1b-4c65-9bec-ebfc8b5c8528",
+      "adopter": {
+        "id": "f85c05dd-64b7-416a-b4c1-461f6ecb8c02",
+        "firstName": "nombre de ejemplo",
+        "lastName": "",
+        "age": 0,
+        "phone": "",
+        "email": "test@test.com",
+        "address": "",
+        "description": ""
+      },
+      "adoptees": [
+        {
+          "id": "1773dc0f-3e64-4f92-a09e-771b5d0f9b44",
+          "name": "",
+          "color": ""
+        },
+        {
+          "id": "a0b30471-93a7-4a8b-84c2-6ca56e6b4134",
+          "name": "",
+          "color": ""
+        }
+      ],
+      "isFirstTimeAdopter": false
+    },
+    {
+      "id": "4a7a37ed-fd1b-4c65-9bec-ebfc8b5c8528",
+      "adopter": {
+        "id": "f85c05dd-64b7-416a-b4c1-461f6ecb8c02",
+        "firstName": "nombre de ejemplo",
+        "lastName": "",
+        "age": 0,
+        "phone": "",
+        "email": "test@test.com",
+        "address": "",
+        "description": ""
+      },
+      "adoptees": [
+        {
+          "id": "b15b6eab-8c84-456b-9ee2-4ecd8be1b846",
+          "name": "mordisquitos",
+          "color": "naranja"
+        },
+        {
+          "id": "ee0b3770-1843-434f-950d-f50144a42493",
+          "name": "kwai",
+          "color": "white"
+        },
+        {
+          "id": "dd6163f9-903b-4c1c-be26-252e80e5c67b",
+          "name": "",
+          "color": ""
+        }
+      ],
+      "isFirstTimeAdopter": false
+    },
+    {
+      "id": "4a7a37ed-fd1b-4c65-9bec-ebfc8b5c8528",
+      "adopter": {
+        "id": "f85c05dd-64b7-416a-b4c1-461f6ecb8c02",
+        "firstName": "nombre de ejemplo",
+        "lastName": "",
+        "age": 0,
+        "phone": "",
+        "email": "test@test.com",
+        "address": "",
+        "description": ""
+      },
+      "adoptees": [
+        {
+          "id": "b15b6eab-8c84-456b-9ee2-4ecd8be1b846",
+          "name": "mordisquitos",
+          "color": "naranja"
+        },
+        {
+          "id": "ee0b3770-1843-434f-950d-f50144a42493",
+          "name": "kwai",
+          "color": "white"
+        },
+        {
+          "id": "540bf452-5857-40e8-b9ff-2804d180784e",
+          "name": "bicho",
+          "color": "naranja"
+        }
+      ],
+      "isFirstTimeAdopter": false
+    },
+    {
+      "id": "4a7a37ed-fd1b-4c65-9bec-ebfc8b5c8528",
+      "adopter": {
+        "id": "f85c05dd-64b7-416a-b4c1-461f6ecb8c02",
+        "firstName": "nombre de ejemplo",
+        "lastName": "",
+        "age": 0,
+        "phone": "",
+        "email": "test@test.com",
+        "address": "",
+        "description": ""
+      },
+      "adoptees": [
+        {
+          "id": "b15b6eab-8c84-456b-9ee2-4ecd8be1b846",
+          "name": "mordisquitos",
+          "color": "naranja"
+        },
+        {
+          "id": "ee0b3770-1843-434f-950d-f50144a42493",
+          "name": "kwai",
+          "color": "white"
+        },
+        {
+          "id": "540bf452-5857-40e8-b9ff-2804d180784e",
+          "name": "bicho",
+          "color": "naranja"
+        }
+      ],
+      "isFirstTimeAdopter": false
+    },
+    {
+      "id": "770eb373-6107-41c6-9ef4-5c58cf001ee5",
+      "adopter": {
+        "id": "43931074-11bd-4325-aedf-cc7ef3ba3152",
+        "firstName": "nombre de ejemplo",
+        "lastName": "",
+        "age": 0,
+        "phone": "",
+        "email": "test@test.com",
+        "address": "",
+        "description": ""
+      },
+      "adoptees": [
+        {
+          "id": "abed16f5-dbac-4e92-b7be-9b2bc2d9cbdb",
+          "name": "luna",
+          "color": "beis"
+        },
+        {
+          "id": "3eff91b0-686c-4ce7-b4c2-a797f63afe98",
+          "name": "",
+          "color": ""
+        }
+      ],
+      "isFirstTimeAdopter": false
+    },
+    {
+      "id": "770eb373-6107-41c6-9ef4-5c58cf001ee5",
+      "adopter": {
+        "id": "43931074-11bd-4325-aedf-cc7ef3ba3152",
+        "firstName": "nombre de ejemplo",
+        "lastName": "",
+        "age": 0,
+        "phone": "",
+        "email": "test@test.com",
+        "address": "",
+        "description": ""
+      },
+      "adoptees": [
+        {
+          "id": "abed16f5-dbac-4e92-b7be-9b2bc2d9cbdb",
+          "name": "luna",
+          "color": "beis"
+        },
+        {
+          "id": "38ec0b88-36db-4ef1-a56e-a6bad1e12cfd",
+          "name": "",
+          "color": ""
+        }
+      ],
+      "isFirstTimeAdopter": false
+    },
+    {
+      "id": "770eb373-6107-41c6-9ef4-5c58cf001ee5",
+      "adopter": {
+        "id": "43931074-11bd-4325-aedf-cc7ef3ba3152",
+        "firstName": "nombre de ejemplo",
+        "lastName": "",
+        "age": 0,
+        "phone": "",
+        "email": "test@test.com",
+        "address": "",
+        "description": ""
+      },
+      "adoptees": [
+        {
+          "id": "abed16f5-dbac-4e92-b7be-9b2bc2d9cbdb",
+          "name": "luna",
+          "color": "beis"
+        },
+        {
+          "id": "71e9d12c-37b3-49cb-9106-5273ed3e5c68",
+          "name": "",
+          "color": ""
         }
       ],
       "isFirstTimeAdopter": false

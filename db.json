@@ -1,14 +1,228 @@
 {
   "perretes": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Alfonsina",
       "breed": "Hound"
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "Valentino",
       "breed": "Italian greyhound"
+    }
+  ],
+  "gatetes": [
+    {
+      "id": "1",
+      "name": "Willy",
+      "color": "gray"
+    },
+    {
+      "id": "2",
+      "name": "Oreo",
+      "color": "black"
+    },
+    {
+      "id": "3",
+      "name": "Wilson",
+      "color": "green"
+    },
+    {
+      "id": "4",
+      "name": "Felix",
+      "color": "black"
+    },
+    {
+      "id": "5",
+      "name": "Micho",
+      "color": "Blanco"
+    },
+    {
+      "id": "bb7ceb6f-daaf-4235-94c4-7eff10bf19be",
+      "name": "caramelo",
+      "color": "tricolor"
+    },
+    {
+      "id": "b15b6eab-8c84-456b-9ee2-4ecd8be1b846",
+      "name": "mordisquitos",
+      "color": "naranja"
+    },
+    {
+      "id": "afea9879-7538-402b-9a7d-4ecf0abb7561",
+      "name": "comino",
+      "color": "beis"
+    },
+    {
+      "id": "540bf452-5857-40e8-b9ff-2804d180784e",
+      "name": "bicho",
+      "color": "naranja"
+    },
+    {
+      "id": "23cfd174-4ce5-4470-8122-329b160b7126",
+      "name": "lego",
+      "color": "rosa"
+    },
+    {
+      "id": "23e42c33-7e8c-4059-86e2-100aa79801e7",
+      "name": "anselmo",
+      "color": "naranja"
+    },
+    {
+      "id": "ee0b3770-1843-434f-950d-f50144a42493",
+      "name": "kwai",
+      "color": "white"
+    },
+    {
+      "id": "130302fe-47fa-494c-99eb-834980abe427",
+      "name": "Rata",
+      "color": "Purple"
+    },
+    {
+      "id": "abed16f5-dbac-4e92-b7be-9b2bc2d9cbdb",
+      "name": "luna",
+      "color": "beis"
+    },
+    {
+      "id": "fbc18257-4f97-44d0-b14e-cc5cbbc48a2e",
+      "name": "tuco",
+      "color": "yellow"
+    },
+    {
+      "id": "075ad8c6-ae26-45a4-b475-f7ed1c05b972",
+      "name": "comadreja",
+      "color": "marron"
+    },
+    {
+      "id": "aa798e08-29f7-4803-b857-1b7216e5efbc",
+      "name": "kuro",
+      "color": "negro"
+    }
+  ],
+  "adoptions": [
+    {
+      "id": "6b90",
+      "adopter": {
+        "firstName": "aforcita",
+        "lastName": "",
+        "age": 20,
+        "phone": "",
+        "email": "",
+        "address": "",
+        "description": ""
+      },
+      "adoptees": [
+        {
+          "id": "bb7ceb6f-daaf-4235-94c4-7eff10bf19be",
+          "name": "caramelo",
+          "color": "tricolor"
+        }
+      ],
+      "isFirstTimeAdopter": false
+    },
+    {
+      "id": "de1d9310-daa8-4dd4-9872-9819a5f85c44",
+      "adopter": {
+        "id": "d209f6f9-8035-4a52-87c7-2c429c94a459",
+        "firstName": "null",
+        "lastName": "",
+        "age": 20,
+        "phone": "",
+        "email": "",
+        "address": "",
+        "description": ""
+      },
+      "adoptees": [
+        {
+          "id": "1",
+          "name": "Willy",
+          "color": "gray"
+        }
+      ],
+      "isFirstTimeAdopter": false
+    },
+    {
+      "id": "8057d823-04ba-41ac-b554-1e782ed1e15a",
+      "adopter": {
+        "id": "38dc82a9-7467-4dc0-b553-0029f22e89ba",
+        "firstName": "null",
+        "lastName": "",
+        "age": 20,
+        "phone": "",
+        "email": "",
+        "address": "",
+        "description": ""
+      },
+      "adoptees": [
+        {
+          "id": "1",
+          "name": "Willy",
+          "color": "gray"
+        }
+      ],
+      "isFirstTimeAdopter": false
+    },
+    {
+      "id": "21c3bc2a-15dd-42a0-b209-de7ac74b2e7f",
+      "adopter": {
+        "id": "22e9fe72-e873-4c53-9170-9323c7866f7c",
+        "firstName": "null",
+        "lastName": "",
+        "age": 20,
+        "phone": "",
+        "email": "",
+        "address": "",
+        "description": ""
+      },
+      "adoptees": [
+        {
+          "id": "1",
+          "name": "Willy",
+          "color": "gray"
+        }
+      ],
+      "isFirstTimeAdopter": false
+    },
+    {
+      "id": "89a0d276-b266-48a6-8835-10d542f30911",
+      "adopter": {
+        "id": "dc2d20ad-850f-46ee-9f31-654ac4e458d8",
+        "firstName": "null",
+        "lastName": "",
+        "age": 20,
+        "phone": "",
+        "email": "",
+        "address": "",
+        "description": ""
+      },
+      "adoptees": [
+        {
+          "id": "bb7ceb6f-daaf-4235-94c4-7eff10bf19be",
+          "name": "caramelo",
+          "color": "tricolor"
+        }
+      ],
+      "isFirstTimeAdopter": false
+    },
+    {
+      "id": "e3c75ba8-c1ec-463f-a788-97735ff81b46",
+      "adopter": {
+        "id": "17ba5071-c4cd-490a-9dac-27e00392ffd1",
+        "firstName": "null",
+        "lastName": "",
+        "age": 20,
+        "phone": "",
+        "email": "",
+        "address": "",
+        "description": ""
+      },
+      "adoptees": [
+        {
+          "id": "3",
+          "name": "Wilson",
+          "color": "green"
+        }
+      ],
+      "isFirstTimeAdopter": false
     }
   ]
 }

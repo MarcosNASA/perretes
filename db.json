@@ -1,443 +1,365 @@
 {
-  "perretes": [],
+  "perretes": [
+    {
+      "id": "c1a1e17e-2dbf-4115-ace0-333635231112",
+      "name": "Rex",
+      "breed": "Labrador"
+    },
+    {
+      "id": "fc37e987-eae4-4267-9ad1-08b3d06f27ef",
+      "name": "Max",
+      "breed": "German Shepherd"
+    },
+    {
+      "id": "b4f1d0a2-58b2-4ef5-a230-d24a4b6589f2",
+      "name": "Bella",
+      "breed": "Poodle"
+    },
+    {
+      "id": "a1d312b6-f392-4d02-b56b-fb8e5fc523ef",
+      "name": "Rocky",
+      "breed": "Bulldog"
+    },
+    {
+      "id": "f32cfc90-752a-45cb-aedf-0c843bd4b4e3",
+      "name": "Charlie",
+      "breed": "Beagle"
+    },
+    {
+      "id": "e7f5fd09-bbd8-41d4-a4a6-659ab6d06b87",
+      "name": "Daisy",
+      "breed": "Golden Retriever"
+    },
+    {
+      "id": "9be3bda1-1b5b-4c32-81ef-dc8d88fcbf41",
+      "name": "Cooper",
+      "breed": "Boxer"
+    },
+    {
+      "id": "bcd56fb6-d823-426d-8ba2-ecb94bba2e8b",
+      "name": "Molly",
+      "breed": "Shih Tzu"
+    },
+    {
+      "id": "f5de2b54-09f3-4e5f-aba6-53b9e74915a1",
+      "name": "Bailey",
+      "breed": "Cocker Spaniel"
+    },
+    {
+      "id": "05ad93ea-7b41-44f5-945a-0a2ae37b25b1",
+      "name": "Lola",
+      "breed": "Chihuahua"
+    }
+  ],
   "gatetes": [
     {
-      "id": "bb7ceb6f-daaf-4235-94c4-7eff10bf19be",
-      "name": "caramelo",
-      "color": "tricolor"
+      "id": "7d2d4b5d-96fb-4c68-b7aa-cb7b5817cfd2",
+      "name": "Mittens",
+      "color": "Gray"
     },
     {
-      "id": "b15b6eab-8c84-456b-9ee2-4ecd8be1b846",
-      "name": "mordisquitos",
-      "color": "naranja"
+      "id": "9f9e2a45-dc93-4d4e-b6a5-9eb4e4d245a2",
+      "name": "Whiskers",
+      "color": "Black and White"
     },
     {
-      "id": "afea9879-7538-402b-9a7d-4ecf0abb7561",
-      "name": "comino",
-      "color": "beis"
+      "id": "5b917e77-7549-4f77-a9c2-4e5bb302e50c",
+      "name": "Simba",
+      "color": "Orange"
     },
     {
-      "id": "540bf452-5857-40e8-b9ff-2804d180784e",
-      "name": "bicho",
-      "color": "naranja"
+      "id": "b619c3a8-c50e-48d1-b670-1563a8a6fc1d",
+      "name": "Nala",
+      "color": "Tan"
     },
     {
-      "id": "23cfd174-4ce5-4470-8122-329b160b7126",
-      "name": "lego",
-      "color": "rosa"
+      "id": "81c4da92-5efb-4d97-a4fc-dca84b51df6a",
+      "name": "Shadow",
+      "color": "Black"
     },
     {
-      "id": "23e42c33-7e8c-4059-86e2-100aa79801e7",
-      "name": "anselmo",
-      "color": "naranja"
+      "id": "1ea2a02d-9b0b-46f5-b76e-b89edbc59b7f",
+      "name": "Oreo",
+      "color": "Black and White"
     },
     {
-      "id": "ee0b3770-1843-434f-950d-f50144a42493",
-      "name": "kwai",
-      "color": "white"
+      "id": "b13f2e4c-6c9c-42f5-b77a-03486f8b9948",
+      "name": "Tiger",
+      "color": "Brown Tabby"
     },
     {
-      "id": "130302fe-47fa-494c-99eb-834980abe427",
-      "name": "Rata",
-      "color": "Purple"
+      "id": "37e75cd4-15a9-4ae4-b1f7-07c327c70580",
+      "name": "Luna",
+      "color": "White"
     },
     {
-      "id": "abed16f5-dbac-4e92-b7be-9b2bc2d9cbdb",
-      "name": "luna",
-      "color": "beis"
+      "id": "4e67b275-925b-44ae-9df3-e36b1cddc32b",
+      "name": "Cleo",
+      "color": "Calico"
     },
     {
-      "id": "fbc18257-4f97-44d0-b14e-cc5cbbc48a2e",
-      "name": "tuco",
-      "color": "yellow"
-    },
-    {
-      "id": "075ad8c6-ae26-45a4-b475-f7ed1c05b972",
-      "name": "comadreja",
-      "color": "marron"
-    },
-    {
-      "id": "aa798e08-29f7-4803-b857-1b7216e5efbc",
-      "name": "kuro",
-      "color": "negro"
+      "id": "857964ae-0099-4f63-a5d5-e728c9e15421",
+      "name": "Felix",
+      "color": "Gray and White"
     }
   ],
   "adoptions": [
     {
-      "id": "6b90",
+      "id": "dfe364e3-05b1-4e98-abc7-f3e7b541a33a",
       "adopter": {
-        "firstName": "aforcita",
-        "lastName": "",
-        "age": 20,
-        "phone": "",
-        "email": "",
-        "address": "",
-        "description": ""
+        "id": "0e2c93b3-f41d-4423-8140-ec48b567fa66",
+        "firstName": "John",
+        "lastName": "Doe",
+        "age": 35,
+        "phone": "+1234567890",
+        "email": "johndoe@example.com",
+        "address": "123 Main St, Anytown, USA",
+        "description": "Loves animals and has a large yard."
       },
       "adoptees": [
         {
-          "id": "bb7ceb6f-daaf-4235-94c4-7eff10bf19be",
-          "name": "caramelo",
-          "color": "tricolor"
-        }
-      ],
-      "isFirstTimeAdopter": false
-    },
-    {
-      "id": "de1d9310-daa8-4dd4-9872-9819a5f85c44",
-      "adopter": {
-        "id": "d209f6f9-8035-4a52-87c7-2c429c94a459",
-        "firstName": "null",
-        "lastName": "",
-        "age": 20,
-        "phone": "",
-        "email": "",
-        "address": "",
-        "description": ""
-      },
-      "adoptees": [
-        {
-          "id": "1",
-          "name": "Willy",
-          "color": "gray"
-        }
-      ],
-      "isFirstTimeAdopter": false
-    },
-    {
-      "id": "8057d823-04ba-41ac-b554-1e782ed1e15a",
-      "adopter": {
-        "id": "38dc82a9-7467-4dc0-b553-0029f22e89ba",
-        "firstName": "null",
-        "lastName": "",
-        "age": 20,
-        "phone": "",
-        "email": "",
-        "address": "",
-        "description": ""
-      },
-      "adoptees": [
-        {
-          "id": "1",
-          "name": "Willy",
-          "color": "gray"
-        }
-      ],
-      "isFirstTimeAdopter": false
-    },
-    {
-      "id": "21c3bc2a-15dd-42a0-b209-de7ac74b2e7f",
-      "adopter": {
-        "id": "22e9fe72-e873-4c53-9170-9323c7866f7c",
-        "firstName": "null",
-        "lastName": "",
-        "age": 20,
-        "phone": "",
-        "email": "",
-        "address": "",
-        "description": ""
-      },
-      "adoptees": [
-        {
-          "id": "1",
-          "name": "Willy",
-          "color": "gray"
-        }
-      ],
-      "isFirstTimeAdopter": false
-    },
-    {
-      "id": "89a0d276-b266-48a6-8835-10d542f30911",
-      "adopter": {
-        "id": "dc2d20ad-850f-46ee-9f31-654ac4e458d8",
-        "firstName": "null",
-        "lastName": "",
-        "age": 20,
-        "phone": "",
-        "email": "",
-        "address": "",
-        "description": ""
-      },
-      "adoptees": [
-        {
-          "id": "bb7ceb6f-daaf-4235-94c4-7eff10bf19be",
-          "name": "caramelo",
-          "color": "tricolor"
-        }
-      ],
-      "isFirstTimeAdopter": false
-    },
-    {
-      "id": "e3c75ba8-c1ec-463f-a788-97735ff81b46",
-      "adopter": {
-        "id": "17ba5071-c4cd-490a-9dac-27e00392ffd1",
-        "firstName": "null",
-        "lastName": "",
-        "age": 20,
-        "phone": "",
-        "email": "",
-        "address": "",
-        "description": ""
-      },
-      "adoptees": [
-        {
-          "id": "3",
-          "name": "Wilson",
-          "color": "green"
-        }
-      ],
-      "isFirstTimeAdopter": false
-    },
-    {
-      "id": "81302275-7e7e-436e-8276-fbd0ba5855e8",
-      "adopter": {
-        "id": "cf20ca66-4d87-4160-99e2-d7b6e8b1b05d",
-        "firstName": "nombre de ejemplo",
-        "lastName": "",
-        "age": 0,
-        "phone": "",
-        "email": "test@test.com",
-        "address": "",
-        "description": ""
-      },
-      "adoptees": [],
-      "isFirstTimeAdopter": false
-    },
-    {
-      "id": "bf97408e-0bac-428c-af5b-fab380f512bb",
-      "adopter": {
-        "id": "ca3bd886-10ae-43df-b30f-93b208dc529c",
-        "firstName": "nombre de ejemplo",
-        "lastName": "",
-        "age": 0,
-        "phone": "",
-        "email": "test@test.com",
-        "address": "",
-        "description": ""
-      },
-      "adoptees": [
-        {
-          "id": "23cfd174-4ce5-4470-8122-329b160b7126",
-          "name": "lego",
-          "color": "rosa"
-        }
-      ],
-      "isFirstTimeAdopter": false
-    },
-    {
-      "id": "4a7a37ed-fd1b-4c65-9bec-ebfc8b5c8528",
-      "adopter": {
-        "id": "f85c05dd-64b7-416a-b4c1-461f6ecb8c02",
-        "firstName": "nombre de ejemplo",
-        "lastName": "",
-        "age": 0,
-        "phone": "",
-        "email": "test@test.com",
-        "address": "",
-        "description": ""
-      },
-      "adoptees": [
-        {
-          "id": "1773dc0f-3e64-4f92-a09e-771b5d0f9b44",
-          "name": "",
-          "color": ""
-        }
-      ],
-      "isFirstTimeAdopter": false
-    },
-    {
-      "id": "4a7a37ed-fd1b-4c65-9bec-ebfc8b5c8528",
-      "adopter": {
-        "id": "f85c05dd-64b7-416a-b4c1-461f6ecb8c02",
-        "firstName": "nombre de ejemplo",
-        "lastName": "",
-        "age": 0,
-        "phone": "",
-        "email": "test@test.com",
-        "address": "",
-        "description": ""
-      },
-      "adoptees": [
-        {
-          "id": "1773dc0f-3e64-4f92-a09e-771b5d0f9b44",
-          "name": "",
-          "color": ""
+          "id": "7d2d4b5d-96fb-4c68-b7aa-cb7b5817cfd2",
+          "name": "Mittens",
+          "color": "Gray"
         },
         {
-          "id": "a0b30471-93a7-4a8b-84c2-6ca56e6b4134",
-          "name": "",
-          "color": ""
+          "id": "9f9e2a45-dc93-4d4e-b6a5-9eb4e4d245a2",
+          "name": "Whiskers",
+          "color": "Black and White"
+        }
+      ],
+      "isFirstTimeAdopter": true
+    },
+    {
+      "id": "5fd13b42-c9c2-4a5c-8047-d7c9bfc3a4ba",
+      "adopter": {
+        "id": "1f76a60d-648b-48e6-9c57-761fd68adfa4",
+        "firstName": "Jane",
+        "lastName": "Smith",
+        "age": 42,
+        "phone": "+0987654321",
+        "email": "janesmith@example.com",
+        "address": "456 Oak Dr, Somecity, USA",
+        "description": "Experienced pet owner with a quiet home."
+      },
+      "adoptees": [
+        {
+          "id": "c1a1e17e-2dbf-4115-ace0-333635231112",
+          "name": "Rex",
+          "breed": "Labrador"
+        },
+        {
+          "id": "fc37e987-eae4-4267-9ad1-08b3d06f27ef",
+          "name": "Max",
+          "breed": "German Shepherd"
         }
       ],
       "isFirstTimeAdopter": false
     },
     {
-      "id": "4a7a37ed-fd1b-4c65-9bec-ebfc8b5c8528",
+      "id": "82a8d327-5075-44c7-87d6-14f45cc60719",
       "adopter": {
-        "id": "f85c05dd-64b7-416a-b4c1-461f6ecb8c02",
-        "firstName": "nombre de ejemplo",
-        "lastName": "",
-        "age": 0,
-        "phone": "",
-        "email": "test@test.com",
-        "address": "",
-        "description": ""
+        "id": "ca147963-ccf1-4f7f-875b-715aa317283b",
+        "firstName": "Alice",
+        "lastName": "Johnson",
+        "age": 28,
+        "phone": "+1029384756",
+        "email": "alicejohnson@example.com",
+        "address": "789 Pine St, Anycity, USA",
+        "description": "Loves long walks with pets."
       },
       "adoptees": [
         {
-          "id": "b15b6eab-8c84-456b-9ee2-4ecd8be1b846",
-          "name": "mordisquitos",
-          "color": "naranja"
+          "id": "b4f1d0a2-58b2-4ef5-a230-d24a4b6589f2",
+          "name": "Bella",
+          "breed": "Poodle"
         },
         {
-          "id": "ee0b3770-1843-434f-950d-f50144a42493",
-          "name": "kwai",
-          "color": "white"
+          "id": "81c4da92-5efb-4d97-a4fc-dca84b51df6a",
+          "name": "Shadow",
+          "color": "Black"
+        }
+      ],
+      "isFirstTimeAdopter": true
+    },
+    {
+      "id": "d13fcb60-91cc-4e56-84f4-9b33d6570ccf",
+      "adopter": {
+        "id": "e32b98a6-8b34-40e7-a0f6-9a135453f5de",
+        "firstName": "Robert",
+        "lastName": "Williams",
+        "age": 50,
+        "phone": "+12233445566",
+        "email": "robertwilliams@example.com",
+        "address": "1010 Maple Ave, Yourtown, USA",
+        "description": "Has always had pets, looking for companions."
+      },
+      "adoptees": [
+        {
+          "id": "a1d312b6-f392-4d02-b56b-fb8e5fc523ef",
+          "name": "Rocky",
+          "breed": "Bulldog"
         },
         {
-          "id": "dd6163f9-903b-4c1c-be26-252e80e5c67b",
-          "name": "",
-          "color": ""
+          "id": "b619c3a8-c50e-48d1-b670-1563a8a6fc1d",
+          "name": "Nala",
+          "color": "Tan"
         }
       ],
       "isFirstTimeAdopter": false
     },
     {
-      "id": "4a7a37ed-fd1b-4c65-9bec-ebfc8b5c8528",
+      "id": "452f2d83-e570-4d89-b2aa-746524a6490e",
       "adopter": {
-        "id": "f85c05dd-64b7-416a-b4c1-461f6ecb8c02",
-        "firstName": "nombre de ejemplo",
-        "lastName": "",
-        "age": 0,
-        "phone": "",
-        "email": "test@test.com",
-        "address": "",
-        "description": ""
+        "id": "f410382b-aba3-486d-8569-37d105ec34b4",
+        "firstName": "Chris",
+        "lastName": "Taylor",
+        "age": 30,
+        "phone": "+14567890123",
+        "email": "christaylor@example.com",
+        "address": "2020 Elm St, Hometown, USA",
+        "description": "Works from home and wants pet companions."
       },
       "adoptees": [
         {
-          "id": "b15b6eab-8c84-456b-9ee2-4ecd8be1b846",
-          "name": "mordisquitos",
-          "color": "naranja"
+          "id": "f32cfc90-752a-45cb-aedf-0c843bd4b4e3",
+          "name": "Charlie",
+          "breed": "Beagle"
         },
         {
-          "id": "ee0b3770-1843-434f-950d-f50144a42493",
-          "name": "kwai",
-          "color": "white"
+          "id": "1ea2a02d-9b0b-46f5-b76e-b89edbc59b7f",
+          "name": "Oreo",
+          "color": "Black and White"
+        }
+      ],
+      "isFirstTimeAdopter": true
+    },
+    {
+      "id": "8d176d99-6b18-4cb5-8d43-10b22b830b0e",
+      "adopter": {
+        "id": "d0456f63-704a-43a9-9089-56943136dcda",
+        "firstName": "Emily",
+        "lastName": "Davis",
+        "age": 40,
+        "phone": "+19876543210",
+        "email": "emilydavis@example.com",
+        "address": "3030 Cedar Rd, Ourtown, USA",
+        "description": "Loves caring for animals."
+      },
+      "adoptees": [
+        {
+          "id": "e7f5fd09-bbd8-41d4-a4a6-659ab6d06b87",
+          "name": "Daisy",
+          "breed": "Golden Retriever"
         },
         {
-          "id": "540bf452-5857-40e8-b9ff-2804d180784e",
-          "name": "bicho",
-          "color": "naranja"
+          "id": "b13f2e4c-6c9c-42f5-b77a-03486f8b9948",
+          "name": "Tiger",
+          "color": "Brown Tabby"
         }
       ],
       "isFirstTimeAdopter": false
     },
     {
-      "id": "4a7a37ed-fd1b-4c65-9bec-ebfc8b5c8528",
+      "id": "70b76c9c-99f9-4dc1-aafa-dbb45d1d29e6",
       "adopter": {
-        "id": "f85c05dd-64b7-416a-b4c1-461f6ecb8c02",
-        "firstName": "nombre de ejemplo",
-        "lastName": "",
-        "age": 0,
-        "phone": "",
-        "email": "test@test.com",
-        "address": "",
-        "description": ""
+        "id": "fbf7929b-3701-4f20-9e62-73913dd16b6b",
+        "firstName": "James",
+        "lastName": "Garcia",
+        "age": 29,
+        "phone": "+16543219876",
+        "email": "jamesgarcia@example.com",
+        "address": "4040 Birch St, Mytown, USA",
+        "description": "Has had cats for years."
       },
       "adoptees": [
         {
-          "id": "b15b6eab-8c84-456b-9ee2-4ecd8be1b846",
-          "name": "mordisquitos",
-          "color": "naranja"
+          "id": "9be3bda1-1b5b-4c32-81ef-dc8d88fcbf41",
+          "name": "Cooper",
+          "breed": "Boxer"
         },
         {
-          "id": "ee0b3770-1843-434f-950d-f50144a42493",
-          "name": "kwai",
-          "color": "white"
-        },
-        {
-          "id": "540bf452-5857-40e8-b9ff-2804d180784e",
-          "name": "bicho",
-          "color": "naranja"
+          "id": "4e67b275-925b-44ae-9df3-e36b1cddc32b",
+          "name": "Cleo",
+          "color": "Calico"
         }
       ],
       "isFirstTimeAdopter": false
     },
     {
-      "id": "770eb373-6107-41c6-9ef4-5c58cf001ee5",
+      "id": "0138ad1f-fbae-494d-8b50-4c3f4781e827",
       "adopter": {
-        "id": "43931074-11bd-4325-aedf-cc7ef3ba3152",
-        "firstName": "nombre de ejemplo",
-        "lastName": "",
-        "age": 0,
-        "phone": "",
-        "email": "test@test.com",
-        "address": "",
-        "description": ""
+        "id": "d961569b-bc4b-4410-babe-ec4e02f53774",
+        "firstName": "Mark",
+        "lastName": "Lee",
+        "age": 33,
+        "phone": "+17654321987",
+        "email": "marklee@example.com",
+        "address": "5050 Cedar Ln, Yourcity, USA",
+        "description": "Looking to expand family with pets."
       },
       "adoptees": [
         {
-          "id": "abed16f5-dbac-4e92-b7be-9b2bc2d9cbdb",
-          "name": "luna",
-          "color": "beis"
+          "id": "bcd56fb6-d823-426d-8ba2-ecb94bba2e8b",
+          "name": "Molly",
+          "breed": "Shih Tzu"
         },
         {
-          "id": "3eff91b0-686c-4ce7-b4c2-a797f63afe98",
-          "name": "",
-          "color": ""
+          "id": "37e75cd4-15a9-4ae4-b1f7-07c327c70580",
+          "name": "Luna",
+          "color": "White"
         }
       ],
-      "isFirstTimeAdopter": false
+      "isFirstTimeAdopter": true
     },
     {
-      "id": "770eb373-6107-41c6-9ef4-5c58cf001ee5",
+      "id": "57a94382-621b-42ff-a125-4e7802b1acb9",
       "adopter": {
-        "id": "43931074-11bd-4325-aedf-cc7ef3ba3152",
-        "firstName": "nombre de ejemplo",
-        "lastName": "",
-        "age": 0,
-        "phone": "",
-        "email": "test@test.com",
-        "address": "",
-        "description": ""
+        "id": "0c4c8f42-01a3-48db-a69c-9a654128efc6",
+        "firstName": "Sophia",
+        "lastName": "Martinez",
+        "age": 36,
+        "phone": "+17865431298",
+        "email": "sophiamartinez@example.com",
+        "address": "6060 Maple St, Bigcity, USA",
+        "description": "Longtime animal lover."
       },
       "adoptees": [
         {
-          "id": "abed16f5-dbac-4e92-b7be-9b2bc2d9cbdb",
-          "name": "luna",
-          "color": "beis"
+          "id": "f5de2b54-09f3-4e5f-aba6-53b9e74915a1",
+          "name": "Bailey",
+          "breed": "Cocker Spaniel"
         },
         {
-          "id": "38ec0b88-36db-4ef1-a56e-a6bad1e12cfd",
-          "name": "",
-          "color": ""
+          "id": "857964ae-0099-4f63-a5d5-e728c9e15421",
+          "name": "Felix",
+          "color": "Gray and White"
         }
       ],
-      "isFirstTimeAdopter": false
+      "isFirstTimeAdopter": true
     },
     {
-      "id": "770eb373-6107-41c6-9ef4-5c58cf001ee5",
+      "id": "9a57d34c-3b1d-4f9c-b59b-7ad7d0320a7f",
       "adopter": {
-        "id": "43931074-11bd-4325-aedf-cc7ef3ba3152",
-        "firstName": "nombre de ejemplo",
-        "lastName": "",
-        "age": 0,
-        "phone": "",
-        "email": "test@test.com",
-        "address": "",
-        "description": ""
+        "id": "d649c4e9-65bb-41b2-b75a-8bfa93ef537e",
+        "firstName": "Peter",
+        "lastName": "Hernandez",
+        "age": 45,
+        "phone": "+13219876543",
+        "email": "peterhernandez@example.com",
+        "address": "7070 Pine Ln, Smalltown, USA",
+        "description": "Looking to give pets a second chance."
       },
       "adoptees": [
         {
-          "id": "abed16f5-dbac-4e92-b7be-9b2bc2d9cbdb",
-          "name": "luna",
-          "color": "beis"
+          "id": "05ad93ea-7b41-44f5-945a-0a2ae37b25b1",
+          "name": "Lola",
+          "breed": "Chihuahua"
         },
         {
-          "id": "71e9d12c-37b3-49cb-9106-5273ed3e5c68",
-          "name": "",
-          "color": ""
+          "id": "5b917e77-7549-4f77-a9c2-4e5bb302e50c",
+          "name": "Simba",
+          "color": "Orange"
         }
       ],
       "isFirstTimeAdopter": false

@@ -4,8 +4,9 @@ import { useState } from 'react'
 import { Gatetes } from './features/gatete/components/Gatetes'
 import { Perretes } from './features/perrete/components/Perretes'
 import { Adopciones } from './features/adopciones/components/Adopciones'
+import { Analytics } from './features/analytics/components/Analytics'
 
-type Tab = 'perretes' | 'gatetes' | 'adopciones'
+type Tab = 'perretes' | 'gatetes' | 'adopciones' | 'analytics'
 
 const DEFAULT_TAB = 'perretes'
 
@@ -36,10 +37,18 @@ function App() {
         >
           Adopciones
         </button>
+        <button
+          onClick={() => {
+            setTab('analytics')
+          }}
+        >
+          Analytics
+        </button>
       </div>
       {tab === 'perretes' && <Perretes />}
       {tab === 'gatetes' && <Gatetes />}
       {tab === 'adopciones' && <Adopciones />}
+      {tab === 'analytics' && <Analytics />}
     </div>
   )
 }
